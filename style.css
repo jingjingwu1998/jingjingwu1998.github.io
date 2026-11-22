@@ -21,3 +21,5 @@
 
 /* Explicit photo widths avoid intrinsic fit-content sizing differences. */
 .presentation-photo{width:100%;max-width:680px;margin:18px 0 28px}.presentation-photo img{display:block;width:100%;height:auto;max-width:100%;max-height:none;box-sizing:border-box}.presentation-photo--portrait{max-width:420px}.presentation-photo--square{max-width:560px}.presentation-photo--square img{width:100%;height:auto;aspect-ratio:1 / 1;object-fit:cover;object-position:center bottom}
+
+.award-photo-frame{position:relative;width:100%;aspect-ratio:1 / 1;overflow:hidden;border:1px solid #ddd;box-sizing:border-box}.award-photo-frame img{position:absolute;left:50%;bottom:0;transform:translateX(-50%);display:block;width:auto;height:150%;max-width:none;max-height:none;aspect-ratio:auto;object-fit:contain;border:0}
